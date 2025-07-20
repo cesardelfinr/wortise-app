@@ -52,3 +52,11 @@ assets/images/icon.png
 assets/images/adaptive-icon.png
 assets/images/favicon.png
 assets/images/splash-icon.png
+
+# Ignorar archivos y carpetas sensibles del backend local
+local-backend/node_modules/
+local-backend/google-vertex-service-account.json
+# Quitar reglas globales que ignoran todos los .json o .js
+# Solo ignorar archivos sensibles específicos
+!local-backend/server.js
+!local-backend/package.json
