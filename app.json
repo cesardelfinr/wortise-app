@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "app-w-nuevo",
+    "slug": "app-w-nuevo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "scheme": "appwnuevo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#FFFFFF"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "VERTEX_API_URL": "https://tu-backend.vercel.app/api/chat-vertex"
+    }
+  }
+}
